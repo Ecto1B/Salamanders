@@ -1,0 +1,20 @@
+name: salamanders_forge_command
+description: Tactical command app for Warhammer 40K Salamanders armies.
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  url_launcher: ^6.2.5
+
+  firebase_core: ^2.24.0
+  cloud_firestore: ^4.15.0
+  image_picker: ^1.0.7
+
+flutter:
+  uses-material-design: true
